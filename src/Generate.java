@@ -3,7 +3,7 @@ import jm.util.Play;
 
 public class Generate {
 	public static void main(String[] args) {
-		//Creates instruments
+	//Creates instruments
         Part percussion = new Part(Part.MARIMBA, 0);
         Part lead = new Part(Part.SPACE_VOICE, 1);
         //Creates empty phrases to add notes to
